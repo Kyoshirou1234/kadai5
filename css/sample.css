@@ -1,0 +1,149 @@
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+/*     */
+
+#chara {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+
+    position: absolute;
+    top: 10;
+    left: 10;
+}
+
+.chara{
+    position:absolute;
+    left:40px; 
+    bottom:50px;
+}
+
+.coin{
+    width: 64px;
+    height: 64px;
+
+    position:absolute;
+    right:10px; 
+    bottom:50px;
+}
+
+.div{
+    text-align: center;
+    font-size: 64px;
+}
+
+#popup_wrapper {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  #popup_inside {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+  }
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
+
+.button{
+    display: block;
+    margin: 20px auto;
+    background-color: purple;
+    color: white;
+    border: 0;
+    padding: 6px 10px;
+}
+  
+#nav{
+    list-style: none;
+    display: flex;
+  }
+  
+  #nav li{ 
+    width: 300px;
+    text-align: center;
+    background-color: #eeeaea;
+  
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2px;
+  }
+     
+  #nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 24px;
+  }
+
+  #ranking_wrapper {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  #ranking_inside {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+  }
+
+  #gameover_wrapper {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  #gameover_inside {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+  }
